@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import Typical from "react-typical";
+import Header from "./components/header/Header";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="">
+			<Header />
+			<FontAwesomeIcon icon={faEnvelope} />
+
+			<Typical
+				loop={Infinity}
+				steps={["Software Engineer", 2500, "Fullstack Engineer", 2000]}
+				wrapper="p"
+				className="text-[30px] mt-10"
+			/>
+		</div>
+	);
 }
 
 export default App;
