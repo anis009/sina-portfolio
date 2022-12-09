@@ -153,7 +153,7 @@ const Header = () => {
 					</li>
 				</ul>
 				{/* hire button */}
-				<button className="hire-me-btn font-medium bg-[#64C59A] rounded-[5px] uppercase py-[10px] px-[20px] ">
+				<button className="hire-me-btn font-medium text-black bg-[#64C59A] rounded-[5px] uppercase py-[10px] px-[20px] ">
 					Hire me
 				</button>
 			</nav>
