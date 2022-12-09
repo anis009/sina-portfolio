@@ -1,0 +1,84 @@
+.sina {
+	position: relative;
+}
+
+.sina::after {
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	height: 2px;
+	background: #64c59a;
+}
+
+@keyframes animate {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+.sina:hover::after {
+	background: #64c59a;
+	animation: animate 0.5s ease;
+}
+button.hamburger-menu,
+button.hire-me-btn {
+	position: relative;
+	z-index: 1;
+}
+
+button.hire-me-btn::after,
+button.hamburger-menu::after,
+a.social-link::after {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	content: "";
+	z-index: -1;
+	transition: 0.5s;
+	border-radius: 5px;
+}
+
+button.hire-me-btn:hover:after,
+button.hamburger-menu:hover:after,
+a.social-link:hover:after {
+	height: 100%;
+	background: white;
+}
+
+@media only screen and (max-width: 960px) {
+	.nav-link-items .nav-items-6,
+	.nav-link-items .dropdown-items-4,
+	.nav-link-items .dropdown-items-5 {
+		display: none;
+	}
+	.dropdown {
+		display: flex;
+	}
+}
+
+@media only screen and (max-width: 870px) {
+	.nav-link-items .nav-items-5,
+	.nav-link-items .dropdown-items-4 {
+		display: none;
+	}
+
+	.dropdown,
+	.nav-link-items .dropdown-items-5 {
+		display: flex;
+	}
+}
+@media only screen and (max-width: 790px) {
+	.nav-link-items .nav-items-4 {
+		display: none;
+	}
+	.nav-link-items .dropdown-items-4 {
+		display: flex;
+	}
+}

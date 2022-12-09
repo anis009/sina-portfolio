@@ -3,19 +3,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Typical from "react-typical";
 import Header from "./components/header/Header";
+import Banner from "./components/banner/Banner";
+import HomeBanner from "./components/HomeBanner/HomeBanner";
+import Skills from "./components/Skills/Skills";
 
 function App() {
 	return (
 		<div className="">
 			<Header />
-			<FontAwesomeIcon icon={faEnvelope} />
-
-			<Typical
-				loop={Infinity}
-				steps={["Software Engineer", 2500, "Fullstack Engineer", 2000]}
-				wrapper="p"
-				className="text-[30px] mt-10"
-			/>
+			<HomeBanner></HomeBanner>
+			<Skills></Skills>
 		</div>
 	);
 }

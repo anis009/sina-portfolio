@@ -1,0 +1,8 @@
+.social-link {
+	transition: 0.5s;
+}
+
+.social-link:hover {
+	background-color: #ffffffde;
+	color: #32bd7e;
+}
