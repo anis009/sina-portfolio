@@ -1,0 +1,34 @@
+[
+	{
+		"id": 1,
+		"name": "all"
+	},
+	{
+		"id": 2,
+		"name": "mern"
+	},
+	{
+		"id": 3,
+		"name": "html&css"
+	},
+	{
+		"id": 4,
+		"name": "react"
+	},
+	{
+		"id": 5,
+		"name": "nodejs"
+	},
+	{
+		"id": 6,
+		"name": "javascript"
+	},
+	{
+		"id": 7,
+		"name": "bootstrap"
+	},
+	{
+		"id": 8,
+		"name": "tailwindcss"
+	}
+]

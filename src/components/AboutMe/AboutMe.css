@@ -1,6 +1,6 @@
 .about-me-header {
 	position: relative;
-	width: 400px;
+	max-width: 400px;
 	margin: auto;
 }
 

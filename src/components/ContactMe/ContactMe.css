@@ -1,0 +1,32 @@
+h1.contact-me-header {
+	position: relative;
+	max-width: 400px;
+	margin: auto;
+}
+
+.contact-me-header::after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 100%;
+	background-color: #64c59a;
+	bottom: -20px;
+	left: 0;
+	text-align: center;
+	border-radius: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+	.contact-flex {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	h1.contact-me-header {
+		position: relative;
+		max-width: 300px;
+		margin: auto;
+		font-size: 30px;
+	}
+}

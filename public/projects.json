@@ -1,0 +1,82 @@
+[
+	{
+		"id": 1,
+		"name": "ResealPhone",
+		"type": "mern",
+		"liveSite": "https://reseal-phones.web.app/",
+		"server": "https://github.com/anichu/reseal-phone-server",
+		"client": "https://github.com/anichu/reseal-phone",
+		"serverClient": "",
+		"description": "Buyers can Order a used phone and pay money with a debit card .Used JWT to authenticate users .Has crud operation. Sellers can sell their used phone by advertising. They can manage their products.Admin can manage both users and buyers. If the seller is verified .He/she will get a special badge",
+		"image": "https://i.ibb.co/W2GB50x/resealphone.png",
+		"technologies": [
+			"react",
+			"mongoDB",
+			"expressJs",
+			"tailwindcss",
+			"Nodejs",
+			"firebase",
+			"jwt",
+			"javascript"
+		]
+	},
+	{
+		"id": 2,
+		"name": "kitchenFood",
+		"type": "mern",
+		"liveSite": "https://kitchen-food-4a61d.web.app/",
+		"serverClient": "https://github.com/anichu/kitchen-food",
+		"description": "Used JWT to authenticate users. If users are logged in , they can review the service. they can see reviews of the product without logging in .Users can see their reviews, and also can add their services",
+		"image": "https://i.ibb.co/fY9MSz9/kitchen-Food.png",
+		"technologies": [
+			"react",
+			"mongoDB",
+			"expressJs",
+			"nodejs",
+			"tailwindcss",
+			"firebase",
+			"jwt",
+			"javascript"
+		]
+	},
+	{
+		"id": 3,
+		"name": "LearnWeb",
+		"type": "mern",
+		"liveSite": "https://jovial-bavarois-23bddd.netlify.app/",
+		"serverClient": "",
+		"client": "https://github.com/anichu/learn-web-client",
+		"server": "https://github.com/anichu/learn-web-server",
+		"description": "used both GitHub and Google login systems using firebase. Implemented advanced react-router-dom",
+		"image": "https://i.ibb.co/7JMLr00/learnWeb.png",
+		"technologies": [
+			"react",
+			"mongoDB",
+			"expressJs",
+			"nodejs",
+			"tailwindcss",
+			"firebase",
+			"javascript"
+		]
+	},
+	{
+		"id": 4,
+		"name": "Donate Today",
+		"type": "html&css",
+		"liveSite": "https://anichu.github.io/donate-today/index.html",
+		"serverClient": "https://github.com/anichu/donate-today",
+		"technologies": ["Html", "css"],
+		"image": "https://i.ibb.co/WWx0ZrS/donate-today.png",
+		"description": "Donate is a statice website that has different scenario of poorest people so that people can help them"
+	},
+	{
+		"id": 5,
+		"name": "World cup news",
+		"type": "html&css",
+		"liveSite": "https://anichu.github.io/world-cup/index.html",
+		"serverClient": "https://github.com/anichu/world-cup",
+		"technologies": ["Html", "css", "responsive design"],
+		"image": "https://i.ibb.co/jZ5hhn4/world-cup-news.png",
+		"description": "world-cup-news is a statice website that has different features to give news about the world cup"
+	}
+]

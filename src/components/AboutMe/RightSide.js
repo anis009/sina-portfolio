@@ -10,49 +10,49 @@ const RightSide = () => {
 			<div className=" flex text-xl font-medium items-center text-[#bfbecb] my-4">
 				<div className=" h-3 w-3 bg-[#64c59a] rounded-full mr-3"></div>
 				<div className="flex">
-					<div className="w-[200px]">First Name</div>
+					<div className="lg:w-[200px] w-[100px]">First Name</div>
 					<div>: Anis</div>
 				</div>
 			</div>
 			<div className=" flex text-xl font-medium items-center text-[#bfbecb] my-4">
 				<div className=" h-3 w-3 bg-[#64c59a] rounded-full mr-3"></div>
 				<div className="flex">
-					<div className="w-[200px]">Last Name</div>
+					<div className="lg:w-[200px] w-[100px]">Last Name</div>
 					<div>: Molla</div>
 				</div>
 			</div>
 			<div className=" flex text-xl font-medium items-center text-[#bfbecb] my-4">
 				<div className=" h-3 w-3 bg-[#64c59a] rounded-full mr-3"></div>
 				<div className="flex">
-					<div className="w-[200px]">Age</div>
+					<div className="lg:w-[200px] w-[100px]">Age</div>
 					<div>: 22 years</div>
 				</div>
 			</div>
 			<div className=" flex text-xl font-medium items-center text-[#bfbecb] my-4">
 				<div className=" h-3 w-3 bg-[#64c59a] rounded-full mr-3"></div>
 				<div className="flex">
-					<div className="w-[200px]">Nationality</div>
+					<div className="lg:w-[200px] w-[100px]">Nationality</div>
 					<div>: Bangladesh</div>
 				</div>
 			</div>
 			<div className=" flex text-xl font-medium items-center text-[#bfbecb] my-4">
 				<div className=" h-3 w-3 bg-[#64c59a] rounded-full mr-3"></div>
 				<div className="flex">
-					<div className="w-[200px]">Languages</div>
+					<div className="lg:w-[200px] w-[100px]">Languages</div>
 					<div>: Bengali (Native), English (Fluent)</div>
 				</div>
 			</div>
 			<div className=" flex text-xl font-medium items-center text-[#bfbecb] my-4">
 				<div className=" h-3 w-3 bg-[#64c59a] rounded-full mr-3"></div>
 				<div className="flex">
-					<div className="w-[200px]">Address</div>
+					<div className="lg:w-[200px] w-[100px]">Address</div>
 					<div>: South alekanda,jumir khan sarak,Barishal</div>
 				</div>
 			</div>
 			<div className=" flex text-xl font-medium items-center text-[#bfbecb] my-4">
 				<div className=" h-3 w-3 bg-[#64c59a] rounded-full mr-3"></div>
 				<div className="flex">
-					<div className="w-[200px]">Freelance</div>
+					<div className="lg:w-[200px] w-[100px]">Freelance</div>
 					<div>: Available</div>
 				</div>
 			</div>
