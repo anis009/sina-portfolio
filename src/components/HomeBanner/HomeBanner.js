@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Homebanner.css";
 import sina from "../../images/sina.jpg";
 import Typewriter from "typewriter-effect";

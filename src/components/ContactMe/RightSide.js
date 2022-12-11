@@ -17,6 +17,7 @@ const RightSide = () => {
 			.then(
 				(result) => {
 					toast.success("message sent");
+					form.reset();
 					console.log(result.text);
 				},
 				(error) => {

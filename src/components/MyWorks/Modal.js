@@ -1,16 +1,7 @@
 import React from "react";
 
 const Modal = ({ showProject }) => {
-	const {
-		image,
-		name,
-		description,
-		technologies,
-		liveSite,
-		serverClient,
-		server,
-		client,
-	} = showProject;
+	const { image, name, description, technologies } = showProject;
 	return (
 		<div>
 			<input type="checkbox" id="my-modal-3" className="modal-toggle" />
@@ -37,48 +28,6 @@ const Modal = ({ showProject }) => {
 									</span>
 								))}
 						</div>
-						<p className="text-xl mt-5">
-							<b>Live Site:</b>
-							<a className="underline ml-5 text-blue-800 " href={liveSite}>
-								{liveSite}
-							</a>
-						</p>
-
-						{serverClient ? (
-							<p className="text-xl mt-5">
-								<b>Github Link:</b>
-								<a
-									className="underline ml-5 text-blue-800 "
-									target="_blank"
-									href={serverClient}
-								>
-									{serverClient}
-								</a>
-							</p>
-						) : (
-							<div>
-								<p className="text-xl mt-5">
-									<b>Client:</b>
-									<a
-										className="underline ml-5 text-blue-800 "
-										target="_blank"
-										href={client}
-									>
-										{client}
-									</a>
-								</p>
-								<p className="text-xl mt-5">
-									<b>Server:</b>
-									<a
-										className="underline ml-5 text-blue-800 "
-										target="_blank"
-										href={server}
-									>
-										{server}
-									</a>
-								</p>
-							</div>
-						)}
 					</div>
 				</div>
 			</div>

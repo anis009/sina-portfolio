@@ -1,3 +1,4 @@
+import axios from "axios";
 import { createBrowserRouter } from "react-router-dom";
 import AboutMe from "../../components/AboutMe/AboutMe";
 import ContactMe from "../../components/ContactMe/ContactMe";
@@ -30,6 +31,7 @@ const router = createBrowserRouter([
 	},
 	{
 		path: "/project/:id",
+		loader: () => axios.get("http://localhost:3000/projects.json"),
 		element: <ProjectDetailsPage></ProjectDetailsPage>,
 	},
 ]);

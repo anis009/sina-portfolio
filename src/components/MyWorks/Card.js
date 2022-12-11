@@ -29,17 +29,6 @@ const Card = ({ project, setShowProject }) => {
 					<HiArrowSmRight className="w-6 h-6 text-base"></HiArrowSmRight>
 				</Link>
 			</div>
-			{/* <div className="px-6 pt-4 pb-2">
-				{technologies &&
-					technologies.map((technology, idx) => (
-						<span
-							key={idx}
-							className="inline-block bg-[#64C59A] rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2"
-						>
-							{technology}
-						</span>
-					))}
-			</div> */}
 		</div>
 	);
 };
