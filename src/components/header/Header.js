@@ -48,7 +48,7 @@ const Header = () => {
 		localStorage.setItem("sina-theme", themeChange);
 	};
 	return (
-		<div className={`${stickyClass} header transition-all duration-100 ease`}>
+		<div className={`${stickyClass} header  transition-all duration-100 ease`}>
 			<nav
 				className={`flex justify-between items-center md:px-10 px-5 bg-[#0B1224] `}
 			>
@@ -69,19 +69,19 @@ const Header = () => {
 					</button>
 				)}
 				{/* logo icon */}
-				<div className="logo-box flex items-center uppercase text-5xl py-5  text-[#64C59A] font-medium">
+				<div className="logo-box flex items-center uppercase text-3xl py-2  text-[#64C59A] font-medium">
 					<span className="logo-name">anis</span>
-					<span className="text-5xl text-[#fafafa]">.</span>
+					<span className="text-3xl text-[#fafafa]">.</span>
 				</div>
 				{/* nav items */}
 				<ul className="nav-link-items sm:flex hidden items-center justify-center ">
-					<li className="px-4  uppercase text-[14px] text-[#fafafa]  py-[24px] font-medium">
+					<li className="px-4  uppercase text-[14px] text-[#fafafa]  py-[10px] font-medium">
 						<a href="#home" className="sina">
 							<span className="mr-[4px] text-[#64C59A] font-semibold">01.</span>
 							Home
 						</a>
 					</li>
-					<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[24px] font-medium">
+					<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[10px] font-medium">
 						<a href="#about" className="sina">
 							{" "}
 							<span className="mr-[4px] text-[#64C59A] font-semibold">
@@ -90,32 +90,32 @@ const Header = () => {
 							about
 						</a>
 					</li>
-					<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[24px] font-medium">
+					<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[10px] font-medium">
 						<a href="#skills" className="sina">
 							<span className="mr-[4px] text-[#64C59A] font-semibold">03.</span>
 							skills
 						</a>
 					</li>
-					<li className="px-4 uppercase text-[14px] nav-items-4 text-[#fafafa] py-[24px] font-medium">
+					<li className="px-4 uppercase text-[14px] nav-items-4 text-[#fafafa] py-[10px] font-medium">
 						<a href="#my-works" className="sina">
 							<span className="mr-[4px] text-[#64C59A] font-semibold">04.</span>
 							works
 						</a>
 					</li>
-					<li className="px-4 uppercase nav-items-5 text-[14px] text-[#fafafa] py-[24px] font-medium">
+					<li className="px-4 uppercase nav-items-5 text-[14px] text-[#fafafa] py-[10px] font-medium">
 						<a href="#blog" className="sina">
 							<span className="mr-[4px] text-[#64C59A] font-semibold">05.</span>
 							blog
 						</a>
 					</li>
-					<li className="px-4 uppercase nav-items-6 text-[14px] text-[#fafafa] py-[24px] font-medium">
+					<li className="px-4 uppercase nav-items-6 text-[14px] text-[#fafafa] py-[10px] font-medium">
 						<a href="#contact" className="sina">
 							{" "}
 							<span className="mr-[4px] text-[#64C59A] font-semibold">06.</span>
 							contact
 						</a>
 					</li>
-					<li className="px-4 uppercase hidden dropdown  relative  items-start text-[14px] text-[#fafafa] py-[24px] font-medium">
+					<li className="px-4 uppercase hidden dropdown  relative  items-start text-[14px] text-[#fafafa] py-[10px] font-medium">
 						<button onClick={() => setDropdown((prev) => !prev)}>
 							<MdMoreHoriz className="w-6 h-6 mr-[4px] text-[#64C59A] font-semibold"></MdMoreHoriz>
 						</button>
@@ -154,7 +154,7 @@ const Header = () => {
 				</ul>
 				{/* hire button */}
 				<a href="#contact">
-					<button className="hire-me-btn font-medium text-black bg-[#64C59A] rounded-[5px] uppercase py-[10px] px-[20px] ">
+					<button className="hire-me-btn font-medium text-black bg-[#64C59A] rounded-[5px] uppercase py-[5px] px-[20px] ">
 						Hire me
 					</button>
 				</a>
@@ -165,13 +165,13 @@ const Header = () => {
 					shownavbar ? "block" : "hidden"
 				}`}
 			>
-				<li className="px-4 uppercase text-[14px] text-[#fafafa]  py-[10px] font-medium">
+				<li className="px-4 uppercase text-[14px] text-[#fafafa]  py-[5px] font-medium">
 					<a href="#home" className="sina">
 						<span className="mr-[4px] text-[#64C59A] font-semibold">01.</span>
 						Home
 					</a>
 				</li>
-				<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[10px] font-medium">
+				<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[5px] font-medium">
 					<a href="#about" className="sina">
 						{" "}
 						<span className="mr-[4px] text-[#64C59A] font-semibold">
@@ -180,25 +180,25 @@ const Header = () => {
 						about
 					</a>
 				</li>
-				<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[10px] font-medium">
+				<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[5px] font-medium">
 					<a href="#skills" className="sina">
 						<span className="mr-[4px] text-[#64C59A] font-semibold">03.</span>
 						skills
 					</a>
 				</li>
-				<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[10px] font-medium">
+				<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[5px] font-medium">
 					<a href="#my-works" className="sina">
 						<span className="mr-[4px] text-[#64C59A] font-semibold">04.</span>
 						works
 					</a>
 				</li>
-				<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[10px] font-medium">
+				<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[5px] font-medium">
 					<a href="#blog" className="sina">
 						<span className="mr-[4px] text-[#64C59A] font-semibold">05.</span>
 						blog
 					</a>
 				</li>
-				<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[10px] font-medium">
+				<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[5px] font-medium">
 					<a href="#contact" className="sina">
 						{" "}
 						<span className="mr-[4px] text-[#64C59A] font-semibold">06.</span>

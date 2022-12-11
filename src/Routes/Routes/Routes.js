@@ -4,6 +4,7 @@ import ContactMe from "../../components/ContactMe/ContactMe";
 import Footer from "../../components/Footer/Footer";
 import HomeBanner from "../../components/HomeBanner/HomeBanner";
 import MyWorks from "../../components/MyWorks/MyWorks";
+import ProjectDetailsPage from "../../components/ProjectDetailsPage/ProjectDetailsPage";
 import Skills from "../../components/Skills/Skills";
 import Main from "../../Layout/Main/Main";
 
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
 				),
 			},
 		],
+	},
+	{
+		path: "/project/:id",
+		element: <ProjectDetailsPage></ProjectDetailsPage>,
 	},
 ]);
 

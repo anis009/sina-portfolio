@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import Card from "./Card";
 import Modal from "./Modal";
+import "./MyWorks.css";
 
 const MyWorks = () => {
 	const [category, setCategory] = useState([]);
@@ -63,8 +64,8 @@ const MyWorks = () => {
 	console.log(projects);
 
 	return (
-		<div className="py-10" id="my-works">
-			<h1 className="text-center my-skills-header text-5xl capitalize text-[#64C59A] font-medium">
+		<div className="pt-[70px] my-works" id="my-works">
+			<h1 className="text-center my-works-header text-4xl capitalize text-[#64C59A] font-medium">
 				My Works
 			</h1>
 			<div className="mt-10">
@@ -82,7 +83,7 @@ const MyWorks = () => {
 						);
 					})}
 				</div>
-				<div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 my-10 gap-5 mx-10">
+				<div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 my-10 gap-5 mx-10">
 					{projects &&
 						projects.map((project) => (
 							<Card

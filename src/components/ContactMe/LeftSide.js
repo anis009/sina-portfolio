@@ -6,7 +6,7 @@ const LeftSide = () => {
 		<div className="lg:w-1/2 w-full">
 			<h3 className="text-3xl mb-5 text-[#64C59A]">Contact Information</h3>
 			<div className="bg-[#0F1830]  w-full border-2 border-[#64C59A] rounded">
-				<div className="flex items-center contact-flex sm:p-10 p-3 w-full bg-[rgba(100,197,154,0.07)] h-full">
+				<div className="flex items-center contact-flex sm:p-5 p-3 w-full bg-[rgba(100,197,154,0.07)] h-full">
 					<div className="bg-[#43af7f] w-12 h-12 flex items-center rounded-full justify-center">
 						<HiPhone className="w-8 h-8 text-white font-bold "></HiPhone>
 					</div>
@@ -17,7 +17,7 @@ const LeftSide = () => {
 				</div>
 			</div>
 			<div className="bg-[#0F1830]  w-full border-2 mt-5 border-[#64C59A] rounded">
-				<div className="flex contact-flex items-center sm:p-10 p-3 w-full bg-[rgba(100,197,154,0.07)] h-full">
+				<div className="flex contact-flex items-center sm:p-5 p-3 w-full bg-[rgba(100,197,154,0.07)] h-full">
 					<div className="bg-[#43af7f] w-12 h-12 flex items-center rounded-full justify-center">
 						<HiOutlineMail className="w-8 h-8 text-white font-bold "></HiOutlineMail>
 					</div>
@@ -28,7 +28,7 @@ const LeftSide = () => {
 				</div>
 			</div>
 			<div className="bg-[#0F1830]  w-full border-2 mt-5 border-[#64C59A] rounded">
-				<div className="flex flex-row contact-flex items-center sm:p-10 p-3 w-full bg-[rgba(100,197,154,0.07)] h-full">
+				<div className="flex flex-row contact-flex items-center sm:p-5 p-3 w-full bg-[rgba(100,197,154,0.07)] h-full">
 					<div className="bg-[#43af7f] w-12 h-12 flex items-center rounded-full justify-center">
 						<HiOutlineMail className="w-8 h-8 text-white font-bold "></HiOutlineMail>
 					</div>

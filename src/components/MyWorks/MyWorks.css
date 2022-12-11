@@ -1,16 +1,10 @@
-.skill {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
-h1.my-skills-header {
+h1.my-works-header {
 	position: relative;
-	width: 200px;
+	width: 250px;
 	margin: auto;
 }
 
-.my-skills-header::after {
+.my-works-header::after {
 	content: "";
 	position: absolute;
 	height: 2px;

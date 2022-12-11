@@ -1,6 +1,6 @@
 h1.contact-me-header {
 	position: relative;
-	max-width: 400px;
+	max-width: 300px;
 	margin: auto;
 }
 
@@ -10,7 +10,7 @@ h1.contact-me-header {
 	height: 2px;
 	width: 100%;
 	background-color: #64c59a;
-	bottom: -20px;
+	bottom: -10px;
 	left: 0;
 	text-align: center;
 	border-radius: 5px;
