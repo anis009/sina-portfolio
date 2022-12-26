@@ -45,7 +45,7 @@
 
 .success {
 	background-color: #4bb543;
-	border: 2.5px dashed #4bb543;
+	border: 2.5px solid #4bb543;
 }
 
 .error {
