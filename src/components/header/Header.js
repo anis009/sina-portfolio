@@ -2,11 +2,16 @@ import React, { useEffect, useState } from "react";
 import { MdMoreHoriz } from "react-icons/md";
 import { HiMenu, HiOutlineX } from "react-icons/hi";
 import "./Header.css";
+import { Link } from "react-router-dom";
+
+import { useContext } from "react";
+import { ProjectContext } from "../../Contexts/ProjectProvider";
 const Header = () => {
 	const [theme, setTheme] = useState("");
 	const [dropdown, setDropdown] = useState(false);
 	const [shownavbar, setShowNavbar] = useState(false);
 	const [stickyClass, setStickyClass] = useState("relative");
+	const { projects } = useContext(ProjectContext);
 
 	useEffect(() => {
 		window.addEventListener("scroll", stickNavbar);
@@ -17,7 +22,6 @@ const Header = () => {
 	}, []);
 
 	const stickNavbar = () => {
-		console.log("anis molla");
 		if (window !== undefined) {
 			let windowHeight = window.scrollY;
 			windowHeight > 10
@@ -47,6 +51,7 @@ const Header = () => {
 		root.classList.remove(themeChange);
 		localStorage.setItem("sina-theme", themeChange);
 	};
+	console.log(shownavbar);
 	return (
 		<div className={`${stickyClass} header  transition-all duration-100 ease`}>
 			<nav
@@ -74,7 +79,7 @@ const Header = () => {
 					<span className="text-3xl text-[#fafafa]">.</span>
 				</div>
 				{/* nav items */}
-				<ul className="nav-link-items sm:flex hidden items-center justify-center ">
+				<ul className="items-center justify-center hidden nav-link-items sm:flex ">
 					<li className="px-4  uppercase text-[14px] text-[#fafafa]  py-[10px] font-medium">
 						<a href="#home" className="sina">
 							<span className="mr-[4px] text-[#64C59A] font-semibold">01.</span>
@@ -103,10 +108,10 @@ const Header = () => {
 						</a>
 					</li>
 					<li className="px-4 uppercase nav-items-5 text-[14px] text-[#fafafa] py-[10px] font-medium">
-						<a href="#blog" className="sina">
+						<Link to="/blog" className="sina">
 							<span className="mr-[4px] text-[#64C59A] font-semibold">05.</span>
 							blog
-						</a>
+						</Link>
 					</li>
 					<li className="px-4 uppercase nav-items-6 text-[14px] text-[#fafafa] py-[10px] font-medium">
 						<a href="#contact" className="sina">
@@ -161,17 +166,23 @@ const Header = () => {
 			</nav>
 			{/* reponsive nav items */}
 			<ul
-				className={`sm:hidden absolute transition-all duration-200  top-20 z-10 w-full text-left p-5 bg-[#0B1224] ${
+				className={`sm:hidden absolute transition-all duration-200  top-13 z-10 w-full text-left p-5 bg-[#0B1224] ${
 					shownavbar ? "block" : "hidden"
 				}`}
 			>
-				<li className="px-4 uppercase text-[14px] text-[#fafafa]  py-[5px] font-medium">
+				<li
+					onClick={(prev) => setShowNavbar(!prev)}
+					className="px-4 uppercase text-[14px] text-[#fafafa]  py-[5px] font-medium"
+				>
 					<a href="#home" className="sina">
 						<span className="mr-[4px] text-[#64C59A] font-semibold">01.</span>
 						Home
 					</a>
 				</li>
-				<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[5px] font-medium">
+				<li
+					onClick={(prev) => setShowNavbar(!prev)}
+					className="px-4 uppercase text-[14px] text-[#fafafa] py-[5px] font-medium"
+				>
 					<a href="#about" className="sina">
 						{" "}
 						<span className="mr-[4px] text-[#64C59A] font-semibold">
@@ -180,25 +191,37 @@ const Header = () => {
 						about
 					</a>
 				</li>
-				<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[5px] font-medium">
+				<li
+					onClick={(prev) => setShowNavbar(!prev)}
+					className="px-4 uppercase text-[14px] text-[#fafafa] py-[5px] font-medium"
+				>
 					<a href="#skills" className="sina">
 						<span className="mr-[4px] text-[#64C59A] font-semibold">03.</span>
 						skills
 					</a>
 				</li>
-				<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[5px] font-medium">
+				<li
+					onClick={(prev) => setShowNavbar(!prev)}
+					className="px-4 uppercase text-[14px] text-[#fafafa] py-[5px] font-medium"
+				>
 					<a href="#my-works" className="sina">
 						<span className="mr-[4px] text-[#64C59A] font-semibold">04.</span>
 						works
 					</a>
 				</li>
-				<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[5px] font-medium">
-					<a href="#blog" className="sina">
+				<li
+					onClick={(prev) => setShowNavbar(!prev)}
+					className="px-4 uppercase text-[14px] text-[#fafafa] py-[5px] font-medium"
+				>
+					<Link to="/blog" className="sina">
 						<span className="mr-[4px] text-[#64C59A] font-semibold">05.</span>
 						blog
-					</a>
+					</Link>
 				</li>
-				<li className="px-4 uppercase text-[14px] text-[#fafafa] py-[5px] font-medium">
+				<li
+					onClick={(prev) => setShowNavbar(!prev)}
+					className="px-4 uppercase text-[14px] text-[#fafafa] py-[5px] font-medium"
+				>
 					<a href="#contact" className="sina">
 						{" "}
 						<span className="mr-[4px] text-[#64C59A] font-semibold">06.</span>

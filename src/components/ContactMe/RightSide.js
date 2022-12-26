@@ -3,7 +3,6 @@ import emailjs from "@emailjs/browser";
 import { toast } from "react-hot-toast";
 const RightSide = () => {
 	const form = useRef();
-	console.log(process.env.REACT_APP_public_key);
 	const sendEmail = (e) => {
 		e.preventDefault();
 
@@ -18,7 +17,7 @@ const RightSide = () => {
 				(result) => {
 					toast.success("message sent");
 					form.reset();
-					console.log(result.text);
+					// console.log(result.text);
 				},
 				(error) => {
 					console.log(error.text);

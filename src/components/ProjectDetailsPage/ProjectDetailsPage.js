@@ -1,14 +1,15 @@
 import React from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import ProjectDetailsCarousel from "./ProjectDetailsCarousel";
 import "./ProjectDetails.css";
+import { useContext } from "react";
+import { ProjectContext } from "../../Contexts/ProjectProvider";
 
 const ProjectDetailsPage = () => {
 	const { id } = useParams();
-	const { data } = useLoaderData();
-	console.log(id);
-	const project = data.find((pr) => {
-		console.log(pr.id);
+	const { projects } = useContext(ProjectContext);
+	// console.log(id);
+	const project = projects.find((pr) => {
 		return pr.id === Number(id);
 	});
 	const {

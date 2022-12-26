@@ -2,7 +2,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const ProjectDetailsCarousel = ({ images }) => {
-	console.log(images);
+	// console.log(images);
 	return (
 		<div className="w-[90%]  mx-auto pt-5 ">
 			<Carousel autoPlay={true} infiniteLoop={true}>

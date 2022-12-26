@@ -15,7 +15,7 @@ const MyWorks = () => {
 			.then((res) => res.json())
 			.then((data) => {
 				setCategory(data);
-				console.log(data);
+				// console.log(data);
 			})
 			.catch((err) => {
 				console.log(err);
@@ -30,7 +30,7 @@ const MyWorks = () => {
 				if (category === "all") {
 					setProjects(data);
 				} else {
-					console.log(category);
+					// console.log(category);
 					const filterProjectsByTechnologies = data.filter((project) =>
 						project.technologies.includes(category)
 					);
@@ -41,13 +41,13 @@ const MyWorks = () => {
 							(ids ? !ids.includes(project.id) : true)
 					);
 
-					console.log(filterProjectsByType);
+					// console.log(filterProjectsByType);
 
 					const filteredProjects = [
 						...filterProjectsByTechnologies,
 						...filterProjectsByType,
 					];
-					console.log(filteredProjects);
+					// console.log(filteredProjects);
 
 					setProjects(filteredProjects);
 				}
@@ -61,7 +61,7 @@ const MyWorks = () => {
 		fetchProjects("all");
 	}, []);
 
-	console.log(projects);
+	// console.log(projects);
 
 	return (
 		<div className="pt-[70px] my-works" id="my-works">

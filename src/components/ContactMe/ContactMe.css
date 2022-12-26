@@ -17,7 +17,7 @@ h1.contact-me-header {
 }
 
 @media only screen and (max-width: 500px) {
-	.contact-flex {
+	/* .contact-flex {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
@@ -28,5 +28,5 @@ h1.contact-me-header {
 		max-width: 300px;
 		margin: auto;
 		font-size: 30px;
-	}
+	} */
 }

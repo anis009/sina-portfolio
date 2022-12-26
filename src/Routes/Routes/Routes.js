@@ -1,6 +1,7 @@
 import axios from "axios";
 import { createBrowserRouter } from "react-router-dom";
 import AboutMe from "../../components/AboutMe/AboutMe";
+import Blog from "../../components/Blog/Blog";
 import ContactMe from "../../components/ContactMe/ContactMe";
 import Footer from "../../components/Footer/Footer";
 import HomeBanner from "../../components/HomeBanner/HomeBanner";
@@ -31,8 +32,11 @@ const router = createBrowserRouter([
 	},
 	{
 		path: "/project/:id",
-		loader: () => axios.get("http://localhost:3000/projects.json"),
 		element: <ProjectDetailsPage></ProjectDetailsPage>,
+	},
+	{
+		path: "/blog",
+		element: <Blog></Blog>,
 	},
 ]);
 
