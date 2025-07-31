@@ -1,17 +1,168 @@
 h1.my-works-header {
-	position: relative;
-	width: 250px;
-	margin: auto;
+  position: relative;
+  width: 250px;
+  margin: auto;
 }
 
 .my-works-header::after {
-	content: "";
-	position: absolute;
-	height: 2px;
-	width: 100%;
-	background-color: #64c59a;
-	bottom: -10px;
-	left: 0;
-	text-align: center;
-	border-radius: 5px;
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #64c59a;
+  bottom: -10px;
+  left: 0;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Tab hover animation */
+.tab {
+  transition: all 0.3s ease;
+}
+
+.tab:hover {
+  transform: translateY(-2px);
+  background-color: rgba(100, 197, 154, 0.1);
+}
+
+/* Enhanced tab animations */
+.tab-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.tab-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(100, 197, 154, 0.3) 0%,
+    transparent 70%
+  );
+  transition: all 0.5s ease;
+  transform: translate(-50%, -50%);
+}
+
+.tab-button:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+/* Ripple effect on click */
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.tab-button:active::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(100, 197, 154, 0.5);
+  transform: translate(-50%, -50%);
+  animation: ripple 0.6s ease-out;
+}
+
+/* Fade in up animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Smooth gradient animation for active tab */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.tab-active-gradient {
+  background: linear-gradient(-45deg, #64c59a, #4ade80, #64c59a, #4ade80);
+  background-size: 400% 400%;
+  animation: gradientShift 3s ease infinite;
+}
+
+/* Grid transition animation */
+.grid {
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Loading state animation */
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.scale-95 {
+  transform: scale(0.95);
+}
+
+.scale-100 {
+  transform: scale(1);
+}
+
+/* Smooth transitions for individual cards */
+.grid > div {
+  transition: all 0.3s ease;
+}
+
+.grid > div:hover {
+  transform: translateY(-5px);
+}
+
+/* Loading shimmer effect */
+@keyframes shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  background-repeat: no-repeat;
+  background-size: 200px 100%;
+  animation: shimmer 2s infinite;
 }

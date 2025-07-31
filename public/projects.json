@@ -1,199 +1,197 @@
 [
-	{
-		"id": 1,
-		"name": "ResealPhone",
-		"type": "mern",
-		"liveSite": "https://reseal-phones.web.app/",
-		"server": "https://github.com/anichu/reseal-phone-server",
-		"client": "https://github.com/anichu/reseal-phone",
-		"serverClient": "",
-		"description": "Buyers can Order a used phone and pay money with a debit card. Used JWT to authenticate users and Has crud operation both buyers and sellers. Sellers can sell their used phone by advertising and they can manage their products.Admin can manage both users and buyers. If the seller is verified ,He/she will get a special badge.",
-		"image": "https://i.ibb.co/W2GB50x/resealphone.png",
-		"images": [
-			"https://i.ibb.co/W2GB50x/resealphone.png",
-			"https://i.ibb.co/LYL7cq6/resealphone-3.png",
-			"https://i.ibb.co/kGcHVHR/resealphone-4.png",
-			"https://i.ibb.co/R96JZ9y/resealphone-5.png",
-			"https://i.ibb.co/JmPNL47/resealphone-6.png",
-			"https://i.ibb.co/3Sj0L6t/resealphone-7.png",
-			"https://i.ibb.co/ZxJ10Kr/resealphone-8.png",
-			"https://i.ibb.co/yhhFvSP/resealphone-10.png",
-			"https://i.ibb.co/nmmLQ8R/resealphone-11.png"
-		],
-		"technologies": [
-			"react",
-			"mongoDB",
-			"expressJs",
-			"tailwindcss",
-			"Nodejs",
-			"firebase",
-			"jwt",
-			"javascript"
-		]
-	},
-	{
-		"id": 2,
-		"name": "kitchenFood",
-		"type": "mern",
-		"liveSite": "https://kitchen-food-4a61d.web.app/",
-		"serverClient": "https://github.com/anichu/kitchen-food",
-		"description": "Used JWT to authenticate users. If users are logged in , they can review the service. they can see reviews of the product without logging in .Users can see their reviews, and also can add their services",
-		"image": "https://i.ibb.co/fY9MSz9/kitchen-Food.png",
-		"images": [
-			"https://i.ibb.co/fY9MSz9/kitchen-Food.png",
-			"https://i.ibb.co/1nKH6G3/kitchenfood-2.png",
-			"https://i.ibb.co/Vq6psxk/kitchenfood-3.png",
-			"https://i.ibb.co/L6ztd0j/kitchen-Food-4.png",
-			"https://i.ibb.co/PWtPJHP/kitchenfood-5.png",
-			"https://i.ibb.co/wWrcNj1/kitchenfood-6.png"
-		],
-		"technologies": [
-			"react",
-			"mongoDB",
-			"expressJs",
-			"nodejs",
-			"tailwindcss",
-			"firebase",
-			"jwt",
-			"javascript"
-		]
-	},
-	{
-		"id": 3,
-		"name": "LearnWeb",
-		"type": "mern",
-		"liveSite": "https://jovial-bavarois-23bddd.netlify.app/",
-		"serverClient": "",
-		"client": "https://github.com/anichu/learn-web-client",
-		"server": "https://github.com/anichu/learn-web-server",
-		"description": "used both GitHub and Google login systems using firebase. Implemented advanced react-router-dom",
-		"image": "https://i.ibb.co/7JMLr00/learnWeb.png",
-		"images": [
-			"https://i.ibb.co/7JMLr00/learnWeb.png",
-			"https://i.ibb.co/WKjPTb9/learnweb-2.png",
-			"https://i.ibb.co/rvhXhsR/learnweb-3.png",
-			"https://i.ibb.co/Jd2mw8x/learnweb-4.png"
-		],
-		"technologies": [
-			"react",
-			"mongoDB",
-			"expressJs",
-			"nodejs",
-			"tailwindcss",
-			"firebase",
-			"javascript"
-		]
-	},
-	{
-		"id": 7,
-		"name": "ChooseYourBestFive",
-		"type": "html&css",
-		"liveSite": "https://sina-choose-your-favourite.netlify.app/",
-		"serverClient": "https://github.com/anichu/select-five",
-		"client": "",
-		"server": "",
-		"description": "used TailwindCss in this website. Used javascript dom and responsive design",
-		"image": "https://i.ibb.co/xD9dRCz/bestfive-1.png",
-		"images": [
-			"https://i.ibb.co/xD9dRCz/bestfive-1.png",
-			"https://i.ibb.co/GJL1b81/bestfive-2.png",
-			"https://i.ibb.co/wMQQPBn/bestfive-3.png"
-		],
-		"technologies": [
-			"html",
-			"css",
-			"tailwindcss",
-			"javascript",
-			"javascript-dom"
-		]
-	},
-	{
-		"id": 8,
-		"name": "News Time",
-		"type": "html&css",
-		"liveSite": "https://newstimesina.netlify.app/",
-		"serverClient": "https://github.com/anichu/news-time",
-		"client": "",
-		"server": "",
-		"description": "used api call to get news . Used javascript dom and responsive design",
-		"image": "https://i.ibb.co/tcGfDmT/newstime-1.png",
-		"images": [
-			"https://i.ibb.co/tcGfDmT/newstime-1.png",
-			"https://i.ibb.co/pKCFnf9/newstime-2.png"
-		],
-		"technologies": [
-			"html",
-			"css",
-			"tailwindcss",
-			"javascript",
-			"javascript-dom"
-		]
-	},
-	{
-		"id": 9,
-		"name": "activities club",
-		"type": "react",
-		"liveSite": "https://activities-club-sina.netlify.app/",
-		"serverClient": "https://github.com/anichu/activities-club",
-		"client": "",
-		"server": "",
-		"description": "Developed a simple website using react. Calculate activities time",
-		"image": "https://i.ibb.co/6X89crp/activities-1.png",
-		"images": [
-			"https://i.ibb.co/6X89crp/activities-1.png",
-			"https://i.ibb.co/CnbgDYB/activities-2.png"
-		],
-		"technologies": ["react", "tailwindcss"]
-	},
-	{
-		"id": 6,
-		"name": "TechWeb",
-		"type": "html&css",
-		"liveSite": "https://learnteachsina.netlify.app",
-		"serverClient": " https://github.com/anichu/edtech",
-		"client": "",
-		"server": "",
-		"description": "used bootstrap in this website. responsive design",
-		"image": "https://i.ibb.co/zrbfCwh/edtech-2.png",
-		"images": [
-			"https://i.ibb.co/WGr84n4/edtech-3.png",
-			"https://i.ibb.co/zrbfCwh/edtech-2.png",
-			"https://i.ibb.co/fQt8Vjx/edtech-4.png",
-			"https://i.ibb.co/xLYz2Np/edtech-6.png",
-			"https://i.ibb.co/g4r6mdK/edtech-5.png"
-		],
-		"technologies": ["html", "css", "bootstrap"]
-	},
-	{
-		"id": 4,
-		"name": "Donate Today",
-		"type": "html&css",
-		"liveSite": "https://anichu.github.io/donate-today/index.html",
-		"serverClient": "https://github.com/anichu/donate-today",
-		"technologies": ["Html", "css"],
-		"image": "https://i.ibb.co/WWx0ZrS/donate-today.png",
-		"images": [
-			"https://i.ibb.co/WWx0ZrS/donate-today.png",
-			"https://i.ibb.co/nRnp9WY/donatetoday-2.png",
-			"https://i.ibb.co/r2xVwtQ/donatetoday-3.png",
-			"https://i.ibb.co/YZJ4gJP/donatetoday-4.png"
-		],
-		"description": "Donate is a statice website that has different scenario of poorest people so that people can help them"
-	},
-	{
-		"id": 5,
-		"name": "World cup news",
-		"type": "html&css",
-		"liveSite": "https://anichu.github.io/world-cup/index.html",
-		"serverClient": "https://github.com/anichu/world-cup",
-		"technologies": ["Html", "css", "responsive design"],
-		"image": "https://i.ibb.co/jZ5hhn4/world-cup-news.png",
-		"images": [
-			"https://i.ibb.co/jZ5hhn4/world-cup-news.png",
-			"https://i.ibb.co/S7L8YZk/worldcupnews-2.png",
-			"https://i.ibb.co/qJzvJ99/worldcupnews-3.png",
-			"https://i.ibb.co/k8CNQ2R/worldcupnews-4.png"
-		],
-		"description": "world-cup-news is a statice website that has different features to give news about the world cup"
-	}
+  {
+    "id": 10,
+    "name": "PNC NIkAH",
+    "type": "mern",
+    "liveSite": "https://pncnikah.com",
+    "server": "https://github.com/anis009",
+    "client": "https://github.com/anis009",
+    "serverClient": "",
+    "description": "PNC Nikah is a matrimonial platform developed by PNC Soft Tech, a software development company based in Barisal, Bangladesh. The platform is designed to assist practicing Muslims in finding a compatible life partner who shares their religious values and commitment to an Islamic lifestyle. PNC Nikah offers a user-friendly interface where individuals can create profiles, browse potential matches, and connect with others seeking a halal marriage",
+    "image": "https://i.ibb.co/MyvfnXSC/pncnikah.png",
+    "images": [
+      "https://i.ibb.co/MyvfnXSC/pncnikah.png",
+      "https://i.ibb.co/8gFMNY3P/p6.png",
+      "https://i.ibb.co/wNcN2syR/p5.png",
+      "https://i.ibb.co/f6j0jxb/p4.png",
+      "https://i.ibb.co/R4HhLswy/dp3.png",
+      "https://i.ibb.co/WNDDbwqf/p2.png",
+      "https://i.ibb.co/j92z8qG8/p1.png"
+    ],
+    "technologies": [
+      "react",
+      "MongoDB",
+      "expressJs",
+      "tailwindcss",
+      "Nodejs",
+      "firebase",
+      "jwt",
+      "javascript"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "kitchenFood",
+    "type": "mern",
+    "liveSite": "https://kitchen-food-4a61d.web.app/",
+    "serverClient": "https://github.com/anichu/kitchen-food",
+    "description": "Used JWT to authenticate users. If users are logged in , they can review the service. they can see reviews of the product without logging in .Users can see their reviews, and also can add their services",
+    "image": "https://i.ibb.co/fY9MSz9/kitchen-Food.png",
+    "images": [
+      "https://i.ibb.co/fY9MSz9/kitchen-Food.png",
+      "https://i.ibb.co/1nKH6G3/kitchenfood-2.png",
+      "https://i.ibb.co/Vq6psxk/kitchenfood-3.png",
+      "https://i.ibb.co/L6ztd0j/kitchen-Food-4.png",
+      "https://i.ibb.co/PWtPJHP/kitchenfood-5.png",
+      "https://i.ibb.co/wWrcNj1/kitchenfood-6.png"
+    ],
+    "technologies": [
+      "react",
+      "mongoDB",
+      "expressJs",
+      "nodejs",
+      "tailwindcss",
+      "firebase",
+      "jwt",
+      "javascript"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "LearnWeb",
+    "type": "mern",
+    "liveSite": "https://jovial-bavarois-23bddd.netlify.app/",
+    "serverClient": "",
+    "client": "https://github.com/anichu/learn-web-client",
+    "server": "https://github.com/anichu/learn-web-server",
+    "description": "used both GitHub and Google login systems using firebase. Implemented advanced react-router-dom",
+    "image": "https://i.ibb.co/7JMLr00/learnWeb.png",
+    "images": [
+      "https://i.ibb.co/7JMLr00/learnWeb.png",
+      "https://i.ibb.co/WKjPTb9/learnweb-2.png",
+      "https://i.ibb.co/rvhXhsR/learnweb-3.png",
+      "https://i.ibb.co/Jd2mw8x/learnweb-4.png"
+    ],
+    "technologies": [
+      "react",
+      "mongoDB",
+      "expressJs",
+      "nodejs",
+      "tailwindcss",
+      "firebase",
+      "javascript"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "ChooseYourBestFive",
+    "type": "html&css",
+    "liveSite": "https://sina-choose-your-favourite.netlify.app/",
+    "serverClient": "https://github.com/anichu/select-five",
+    "client": "",
+    "server": "",
+    "description": "used TailwindCss in this website. Used javascript dom and responsive design",
+    "image": "https://i.ibb.co/xD9dRCz/bestfive-1.png",
+    "images": [
+      "https://i.ibb.co/xD9dRCz/bestfive-1.png",
+      "https://i.ibb.co/GJL1b81/bestfive-2.png",
+      "https://i.ibb.co/wMQQPBn/bestfive-3.png"
+    ],
+    "technologies": [
+      "html",
+      "css",
+      "tailwindcss",
+      "javascript",
+      "javascript-dom"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "News Time",
+    "type": "html&css",
+    "liveSite": "https://newstimesina.netlify.app/",
+    "serverClient": "https://github.com/anichu/news-time",
+    "client": "",
+    "server": "",
+    "description": "used api call to get news . Used javascript dom and responsive design",
+    "image": "https://i.ibb.co/tcGfDmT/newstime-1.png",
+    "images": [
+      "https://i.ibb.co/tcGfDmT/newstime-1.png",
+      "https://i.ibb.co/pKCFnf9/newstime-2.png"
+    ],
+    "technologies": [
+      "html",
+      "css",
+      "tailwindcss",
+      "javascript",
+      "javascript-dom"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "activities club",
+    "type": "react",
+    "liveSite": "https://activities-club-sina.netlify.app/",
+    "serverClient": "https://github.com/anichu/activities-club",
+    "client": "",
+    "server": "",
+    "description": "Developed a simple website using react. Calculate activities time",
+    "image": "https://i.ibb.co/6X89crp/activities-1.png",
+    "images": [
+      "https://i.ibb.co/6X89crp/activities-1.png",
+      "https://i.ibb.co/CnbgDYB/activities-2.png"
+    ],
+    "technologies": ["react", "tailwindcss"]
+  },
+  {
+    "id": 6,
+    "name": "TechWeb",
+    "type": "html&css",
+    "liveSite": "https://learnteachsina.netlify.app",
+    "serverClient": " https://github.com/anichu/edtech",
+    "client": "",
+    "server": "",
+    "description": "used bootstrap in this website. responsive design",
+    "image": "https://i.ibb.co/zrbfCwh/edtech-2.png",
+    "images": [
+      "https://i.ibb.co/WGr84n4/edtech-3.png",
+      "https://i.ibb.co/zrbfCwh/edtech-2.png",
+      "https://i.ibb.co/fQt8Vjx/edtech-4.png",
+      "https://i.ibb.co/xLYz2Np/edtech-6.png",
+      "https://i.ibb.co/g4r6mdK/edtech-5.png"
+    ],
+    "technologies": ["html", "css", "bootstrap"]
+  },
+  {
+    "id": 4,
+    "name": "Donate Today",
+    "type": "html&css",
+    "liveSite": "https://anichu.github.io/donate-today/index.html",
+    "serverClient": "https://github.com/anichu/donate-today",
+    "technologies": ["Html", "css"],
+    "image": "https://i.ibb.co/WWx0ZrS/donate-today.png",
+    "images": [
+      "https://i.ibb.co/WWx0ZrS/donate-today.png",
+      "https://i.ibb.co/nRnp9WY/donatetoday-2.png",
+      "https://i.ibb.co/r2xVwtQ/donatetoday-3.png",
+      "https://i.ibb.co/YZJ4gJP/donatetoday-4.png"
+    ],
+    "description": "Donate is a statice website that has different scenario of poorest people so that people can help them"
+  },
+  {
+    "id": 5,
+    "name": "World cup news",
+    "type": "html&css",
+    "liveSite": "https://anichu.github.io/world-cup/index.html",
+    "serverClient": "https://github.com/anichu/world-cup",
+    "technologies": ["Html", "css", "responsive design"],
+    "image": "https://i.ibb.co/jZ5hhn4/world-cup-news.png",
+    "images": [
+      "https://i.ibb.co/jZ5hhn4/world-cup-news.png",
+      "https://i.ibb.co/S7L8YZk/worldcupnews-2.png",
+      "https://i.ibb.co/qJzvJ99/worldcupnews-3.png",
+      "https://i.ibb.co/k8CNQ2R/worldcupnews-4.png"
+    ],
+    "description": "world-cup-news is a statice website that has different features to give news about the world cup"
+  }
 ]
