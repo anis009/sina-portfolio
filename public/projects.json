@@ -1,5 +1,35 @@
 [
   {
+    "id": 11,
+    "name": "Amulette",
+    "type": "mern",
+    "liveSite": "https://amulette.vercel.app/",
+    "server": "https://github.com/anis009/amulette-backend",
+    "client": "https://github.com/anis009/amulette-website-front-end",
+    "serverClient": "",
+    "description": "Amulette is a modern web application that brings together a collection of useful digital tools in one clean, minimalist interface. Designed with a focus on simplicity and speed, it offers a seamless user experience across devices. Whether you're a developer, designer, or everyday user, Amulette helps you access everyday utilities like formatters, converters, and generators without the clutter of complex apps. Built with modern technologies, it aims to streamline your workflow and provide small but essential tools in an elegant and efficient way.",
+    "image": "https://res.cloudinary.com/dfcyydhfn/image/upload/v1754044144/a1_mrhhs8.png",
+    "images": [
+      "https://res.cloudinary.com/dfcyydhfn/image/upload/v1754044144/a1_mrhhs8.png",
+      "https://res.cloudinary.com/dfcyydhfn/image/upload/v1754044145/a2_r2hpzd.png",
+      "https://res.cloudinary.com/dfcyydhfn/image/upload/v1754044144/a4_dc9qup.png",
+      "https://res.cloudinary.com/dfcyydhfn/image/upload/v1754044144/a3_fxz5rz.png",
+      "https://res.cloudinary.com/dfcyydhfn/image/upload/v1754044143/a5_swbpvu.png"
+    ],
+    "technologies": [
+      "react",
+      "MongoDB",
+      "expressJs",
+      "tailwindcss",
+      "Nodejs",
+      "firebase",
+      "jwt",
+      "javascript",
+      "typescript",
+      "stripe"
+    ]
+  },
+  {
     "id": 10,
     "name": "PNC NIkAH",
     "type": "mern",

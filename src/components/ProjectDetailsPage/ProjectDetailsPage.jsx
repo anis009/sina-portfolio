@@ -254,7 +254,7 @@ const ProjectDetailsPage = () => {
               {technologies.map((technology, idx) => (
                 <span
                   key={idx}
-                  className="inline-flex items-center bg-gradient-to-r from-[#64C59A] to-[#4ade80] text-black px-4 py-2 rounded-full text-sm font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+                  className="inline-flex capitalize items-center bg-gradient-to-r from-[#64C59A] to-[#4ade80] text-black px-4 py-2 rounded-full text-sm font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
                 >
                   {technology}
                 </span>
