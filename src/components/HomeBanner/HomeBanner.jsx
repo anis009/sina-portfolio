@@ -6,7 +6,7 @@ import resume from "../../file/Anis.pdf";
 
 const HomeBanner = () => {
   return (
-    <div id="home" className="bg-[#0B1224] text-black  pt-[60px]" id="home">
+    <div className="bg-[#0B1224] text-black  pt-[60px]" id="home">
       <div className="home-banner-overlay bg-[#0f1830]   rounded-md shadow-lg sm:w-[80%] w-[95%] mx-auto my-2">
         <div className="flex w-full h-full pt-5">
           <div class="circle-wrapper">

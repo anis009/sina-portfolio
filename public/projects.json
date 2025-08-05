@@ -1,5 +1,30 @@
 [
   {
+    "id": 13,
+    "name": "RemoteTalks",
+    "type": "nextjs",
+    "liveSite": "https://remote-talks.web.app/",
+    "server": "https://github.com/anis009/remote-talks-server",
+    "client": "https://github.com/anis009/remote-talks-client",
+    "serverClient": "",
+    "description": "Remote Talks is a dynamic online platform designed to bring high‑quality remote interviews, conversations, panel discussions, and webinars directly to a global audience. Featuring both live and recorded sessions, it delivers seamless streaming through a clean, intuitive interface compatible across desktop and mobile devices. Audiences can engage directly via live chat or Q&A, while hosts benefit from flexible functionality including guest bios, scheduled events, episode archives, downloadable transcripts, and registration options. With a modern, minimalist design and fast performance backed by reliable web technologies, Remote Talks caters to professionals, thought leaders, and curious listeners seeking insightful conversations in a polished yet approachable format.",
+    "image": "https://i.ibb.co.com/1tcJDjLJ/r1.png",
+    "images": [
+      "https://i.ibb.co.com/1tcJDjLJ/r1.png",
+      "https://i.ibb.co.com/zVdJN5gh/r2.png",
+      "https://i.ibb.co.com/jv1spj7L/r3.png",
+      "https://i.ibb.co.com/WWHLrJKc/r4.png",
+      "https://i.ibb.co.com/Gv5GdVq2/r6.png"
+    ],
+    "technologies": [
+      "VideoSDK",
+      "Socket.io",
+      "react",
+      "tailwindcss",
+      "javascript"
+    ]
+  },
+  {
     "id": 12,
     "name": "FirstClassForLess",
     "type": "nextjs",
@@ -7,14 +32,15 @@
     "server": "",
     "client": "",
     "serverClient": "https://github.com/anis009/firstclassforless",
-    "description": "Amulette is a modern web application that brings together a collection of useful digital tools in one clean, minimalist interface. Designed with a focus on simplicity and speed, it offers a seamless user experience across devices. Whether you're a developer, designer, or everyday user, Amulette helps you access everyday utilities like formatters, converters, and generators without the clutter of complex apps. Built with modern technologies, it aims to streamline your workflow and provide small but essential tools in an elegant and efficient way.",
-    "image": "https://res.cloudinary.com/dfcyydhfn/image/upload/v1754044144/a1_mrhhs8.png",
+    "description": "FirstClassForLess** is a modern and efficient flight booking platform that makes it easy for travelers to find and book premium air travel at competitive prices. Whether you're searching for First Class, Business Class, or Economy fares, the site offers a seamless experience with a clean, intuitive interface. Users can search flights from hundreds of airlines around the world, compare prices, and book directly through trusted partners or airline websites. The platform ensures transparent pricing with no hidden fees, and offers helpful features like flexible date search, real-time price alerts, and optional add-ons such as hotels, car rentals, and travel insurance. Designed for speed and reliability on Vercel, FirstClassForLess is perfect for frequent flyers, luxury travelers, or anyone who wants a smarter and simpler way to fly.",
+    "image": "https://i.ibb.co.com/rKkSSR3W/f1.png",
     "images": [
-      "https://res.cloudinary.com/dfcyydhfn/image/upload/v1754044144/a1_mrhhs8.png",
-      "https://res.cloudinary.com/dfcyydhfn/image/upload/v1754044145/a2_r2hpzd.png",
-      "https://res.cloudinary.com/dfcyydhfn/image/upload/v1754044144/a4_dc9qup.png",
-      "https://res.cloudinary.com/dfcyydhfn/image/upload/v1754044144/a3_fxz5rz.png",
-      "https://res.cloudinary.com/dfcyydhfn/image/upload/v1754044143/a5_swbpvu.png"
+      "https://i.ibb.co.com/rKkSSR3W/f1.png",
+      "https://i.ibb.co.com/ycwZbph6/f2.png",
+      "https://i.ibb.co.com/kYXFFdq/f3.png",
+      "https://i.ibb.co.com/chJVfdk1/f4.png",
+      "https://i.ibb.co.com/WpzQWQNJ/f5.png",
+      "https://i.ibb.co.com/q38180Dk/f6.png"
     ],
     "technologies": ["Nextjs", "tailwindcss", "javascript"]
   },
@@ -113,7 +139,7 @@
     "serverClient": "",
     "client": "https://github.com/anichu/learn-web-client",
     "server": "https://github.com/anichu/learn-web-server",
-    "description": "used both GitHub and Google login systems using firebase. Implemented advanced react-router-dom",
+    "description": "Used both GitHub and Google login systems using firebase. Implemented advanced react-router-dom",
     "image": "https://i.ibb.co/7JMLr00/learnWeb.png",
     "images": [
       "https://i.ibb.co/7JMLr00/learnWeb.png",
